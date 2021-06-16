@@ -1,0 +1,17 @@
+En la ventana de comandos:
+	clc: limpia la ventana
+
+	clear: limpia el workspace
+
+	Si no queremos que se muestre el "resultado" del comando ingresado, se le pone 
+	punto y coma al final.
+
+	help <funcion o comando>: para ver la ayuda 
+	
+	Nota: las funciones trignométricas funcionan en Radianes, y su argumento va entre 
+	paréntes.
+	Si queremos usar la funcione (ej) seno en grados, la función sería <sind(45)>
+
+	pi: esta constante ya está definida en matlab :D 
+
+	
