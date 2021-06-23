@@ -3,16 +3,47 @@
 	A = [a, b, c,..]
 	A = [a b c ...]
 	*Vector columna:
-	A = [a; b; c; ...]
+	A = [a; b; c; ...] % Los corchetes se pueden omitir 
 	*Vector con varios elementos e intervalo definido:
 	A = [1:10] %Vector de 10 unidades, incrementa en 1
 	*Vector con el incremento definido:
 	A = [-5:5:50] %Este vector empieza en -5 e incrementa de 5 en 5 hasta el num 50
+
+	**Vector definido con otro vector (dentro): Se puede colocar un vector dentro de otro, 
+	es decir, podemos hacer lo siguiente: 
+	A = [1, 2, 3, B, 90, 100]; %Donde B es otro vector, el vector A va a tomar los elementos
+	del vector B y los va a concatenar (después del 3 y antes del 90).
+
+	->Otra forma de declarar un vector es con la función <linspace(arg1,arg2,arg3)>
+	Ejemplo: 
+	B = linspace(3,15,5);%Los valores que almacenaría este vector son: 3,6,9,12,15
+	*Lo que hace es tomar el primer arg como el inicio, el segundo el final, y el tercero
+	como el número de elementos que va a tener dicho vector. 
+
 ->Acceso a los elementos de un vector:
 	*Obtener solo un valor. Ejemplo: 
 	valor = A(2); %El indice va entre PARÉNTESIS, y empieza en 1
 	*Obtener un rango de valores. Ejemplo:
 	valores = A(3:5);%La variable <valores> estará guardando un vector de 3 elementos
+
+	*Podemos obtener varios valores de un vector sin necesidad de que sean contiguos,
+	es decir, podemos obtener el valor del <<indice>> 3, 1, 10, 4 y también se pueden almacenar
+	en otro vector, y van a respetar el orden en que se han obtenido los valores. 
+	Ejemplo:
+	vectorN = vector([3 1 10 4]);
+	Ejemplo 2:
+	vectorN = vector([1:5,10]);
+	
+->Modificación del valor:
+	*Podemos asignar directamente el nuevo valor
+	Ejemplo: 
+	vectorN(2) = 1000;% Y así en cualquier indice 
+
+	*Caso especial* 
+	Si nosotros tenemos un vector H de 10 localidades, pero escribimos lo sieguiente:
+	H(20) = 5; lo que sucederá es que va a "concatenar" 10 localidades al vector, 
+	pero de la 11 a la 19 le pondrá el valor de 0, y la loc 20 tendrá el valor de 5. 
+
 
 ->Transposición de vectores: 
 **Si tenemos por ej, un vector fila, el vector transpuesto sería un vector columna**
