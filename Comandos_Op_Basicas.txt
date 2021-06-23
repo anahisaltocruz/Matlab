@@ -12,6 +12,6 @@ En la ventana de comandos:
 	paréntes.
 	Si queremos usar la funcione (ej) seno en grados, la función sería <sind(45)>
 
-	pi: esta constante ya está definida en matlab :D 
+	pi: esta constante ya está definida en matlab :D     
 
 	
