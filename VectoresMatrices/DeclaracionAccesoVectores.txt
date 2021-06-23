@@ -1,0 +1,19 @@
+->Declaración de vectores:
+	*Vector fila:
+	A = [a, b, c,..]
+	A = [a b c ...]
+	*Vector columna:
+	A = [a; b; c; ...]
+	*Vector con varios elementos e intervalo definido:
+	A = [1:10] %Vector de 10 unidades, incrementa en 1
+	*Vector con el incremento definido:
+	A = [-5:5:50] %Este vector empieza en -5 e incrementa de 5 en 5 hasta el num 50
+->Acceso a los elementos de un vector:
+	*Obtener solo un valor. Ejemplo: 
+	valor = A(2); %El indice va entre PARÉNTESIS, y empieza en 1
+	*Obtener un rango de valores. Ejemplo:
+	valores = A(3:5);%La variable <valores> estará guardando un vector de 3 elementos
+
+->Transposición de vectores: 
+**Si tenemos por ej, un vector fila, el vector transpuesto sería un vector columna**
+	*La representación del vector transpuesto es <A'> y se puede asignar el valor a otra variable
