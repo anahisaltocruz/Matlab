@@ -1,0 +1,20 @@
+*****Matlab reconoce tanto a <i> como a <j> :) 
+
+	-Raíces n-ésimas
+	nthroot(<indice>,<radical>)
+	*Ejemlo: raíz cúbica de 64 = nthroot(3,64)
+
+	sign(<arg>): devuelve 1 si es positivo, y -1 si es negativo
+	
+	log(<arg>): logaritmo natural
+	logn(<arg>): logaritmo base n, n se específica ;-; 
+
+	Inf: representación del infinito
+	NaN: Matlab arroja este resultado cuando es "indeterminado", ej: 1/0
+		<Not a number>
+
+	rand: arroja un número aleatorio **entre 0 y 1**
+	randi(<arg>): genera un numero aleatorio **entre 1 y arg**
+
+	round(<arg>): redondea el argumento al entero más cercano
+		ej: round(1.05) = 1
