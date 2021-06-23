@@ -12,6 +12,8 @@ En la ventana de comandos:
 	paréntes.
 	Si queremos usar la funcione (ej) seno en grados, la función sería <sind(45)>
 
-	pi: esta constante ya está definida en matlab :D     
+	pi: esta constante ya está definida en matlab :D 
 
-	
+	Las funciones ARCO están dadas como <asen,asend>,<acos,acosd>,etc
+
+	sqrt(<arg>): Raíz cuadrada de 
