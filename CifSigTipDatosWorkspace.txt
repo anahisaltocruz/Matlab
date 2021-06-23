@@ -1,0 +1,16 @@
+Sifras significativas:
+	Formatos para configurar el número de cifras:
+	- format long: 	15 cifras
+	- format bank:	2  cifras
+	- format short e:escribe en notación científica
+	- format long e: escribe en notación científica pero con muchas cifras ;-; 
+	- format short: 4 cifras (tiene este por defecto)
+
+	
+	who: nos muestra las variables que están guardadas en el workspace
+	whos: lo mismo pero con datos adicionales
+	**NOTA: Se pueden guardar las variables que tenemos el workspace y 
+		y usarlas en otro programa. 
+		Pare esto, necesitamos seleccionarlas, clic derecho,<save as> y las guardamos. 
+
+	clear <nombre_variable>: borra unicamente esa variable
