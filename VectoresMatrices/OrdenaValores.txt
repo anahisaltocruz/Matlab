@@ -1,0 +1,8 @@
+->Ordenar valores:
+	*sort(<arg>)
+	**Esta función ordena los elementos de menor a mayor en vectores o matrices
+	Para el caso de las matrices ordena cada columna.
+	
+	***Nota: Si queremos que se ordene de mayor a menor, se le coloca un segundo
+	argumento, de la siguiente manera:
+	sort(A, 'descend'); %Suponiendo que A es un vector o matriz
