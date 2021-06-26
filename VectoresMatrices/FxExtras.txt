@@ -13,4 +13,7 @@
 ->Producto punto en vectores:
 	*dot(<arg1>,<arg2>): Esta función nos devuelve el valor de la operación
 	del producto punto entre dos vectores, donde arg 1 y arg 2 son los vec ;-;
+
+->Función del valor absoluto:
+	*abs(<arg>): este argumento puede ser solo un número, vector o matriz 
  
