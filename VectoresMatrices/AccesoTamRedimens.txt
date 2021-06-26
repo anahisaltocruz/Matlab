@@ -1,0 +1,32 @@
+->Redimensionar un vector o matriz
+	*reshape(<vector o matriz>,<numFilas>,<numCols>)
+	*Ejemplo: Supongamos que tenemos un vector <V> del 1 al 30, lo podemos 
+	redimensionar en una matriz de 10,3; 3,10; 6,5, etc. 
+	****Nota: Podríamos dejar uno de los 2 argumentos (num de filas o cols) en 
+	blanco [], y se nos va a "completar" en automático el otro arg
+
+->Tamaño de la matriz:
+	*size(<matriz>)
+	*Devuelve las dimensiones de la matriz: Ejemplo 5 x 20
+
+->Acceso a valores de la matriz: 
+	*Si nosotros queremos obtener <toda una fila> o <toda una columna> de la matriz, 
+	lo podemos hacer de la siguiente manera:
+	valores = Matriz(2,:)%Lo que se obtiene es: Toda la segunda fila de <Matriz>
+		**De igual forma se podría obtener toda una columna
+	**En los parametros anteriores, también se puede escribir "end" para hacer
+	referencia a la última columna o a la última fila, segpun sea el caso.
+	
+
+	*Supongamos que tenemos la matriz Z con los siguientes valores:
+	1 2 3 4 5
+	9 8 7 6 5 
+	8 5 2 0 3
+	4 7 1 8 9
+	y a la variable <valor> le asignamos lo siguiente:
+	valor = Z(7); %El número que se almacena en la variable valor será el 5
+		Para saber que número será, se empieza a contar a partir de la 
+		primera casilla hacia abajo, es decir, por columnas. 
+	**Nota: Si tomamos un rango de la matriz, también se va a contar por columnas
+
+	

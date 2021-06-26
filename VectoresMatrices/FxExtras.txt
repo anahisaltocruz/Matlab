@@ -1,0 +1,16 @@
+->Representación de polinomios a partir de vectores: 
+	*Si nosotros queremos representar por ejemplo: x^2+x, en vector sería:
+	Y = [1 1 0]
+
+	*Función <roots(<arg>)>: Esta función sirve para hallar las raíces del 
+	polinomio que se está representando con el vector; Ejemplo:
+	roots(Y)%El resultado sería: 0 y -1
+
+->Tamaño de un vector:
+	*length(<arg>): Esta función nos devuelve el tamaño del vector que tenga por
+	argumento.
+
+->Producto punto en vectores:
+	*dot(<arg1>,<arg2>): Esta función nos devuelve el valor de la operación
+	del producto punto entre dos vectores, donde arg 1 y arg 2 son los vec ;-;
+ 

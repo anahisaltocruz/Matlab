@@ -1,0 +1,14 @@
+->Multiplicación de Vectores:
+	*Para multiplicar componente a componente de un Vector, se coloca un . <punto> antes 
+	del * <asterisco>, ya que de no ponerse, matlab va a intentar hacer una tipo 
+	"multiplicación de matrices"
+
+-->Función sum(<arg>)
+	*Esta función es una sumatoria ;-; 
+	La podemos usar, por ejemplo, para obtener la suma de todas las casillas del vector.
+	Ejemplo:
+	v = [1, 2, 3, 4];
+	sum(v)% La respuestá será 10 :) 
+
+-->Función norm(<arg>)
+	*Esta función halla la norma del vector que se le de como parámetro 

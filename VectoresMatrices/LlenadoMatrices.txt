@@ -1,0 +1,45 @@
+->Declaración de matrices
+	*Ejemplo: 
+	A = [1 2 3; 4 5 6]%Para cada nueva fila se usa el ;
+
+	*También se pueden declarar intervales, ejemplo:
+	B = [0:10;10:20]
+
+	*Matriz de NÚMEROS ALEATORIOS
+	<rand()>
+	matrizRand = rand(n); %Donde n es el tamaño de la matriz (nxn)
+	
+	matrizRand2 = rand(n,m); %Donde n es el número de filas y m el de cols
+	****Nota: Si uno de los dos parametros es 1, se convierte en vector ;-;
+	****Nota 2: Rand da los números aleatorios entre 0 y 1 
+
+	<randi()>
+	matrizRandInt = randi(n); %Donde n es el tamaño de la matriz (nxn)
+	matrizRandInt2 = randi(n,m); %Donde n es el número de filas y m el de cols
+	matrizRandInt3 = randi([min,max],n,m); %Donde min y max representa el rango
+			entre el que se van a generar los npumeros aleatorios,
+			n es el número de filas y m el de cols
+
+->Matriz de CEROS:
+	*zeros(<n>): Crea una matriz de n*n llena de ceros.
+	*zeros(<arg1>,<arg2>): Crea un "vector" (o matriz) lleno de ceros, donde el 
+		primer argumento es el número de filas y el segundo el número de columnas.
+
+->Matriz de UNOS:
+	*ones(<>)
+	*Los argumentos funcionan igual que en la matriz de ceros, sólo que ahora 
+	la llena de UNOS.
+
+->Matriz Identidad (la que sólo tiene unos en la diagonal y 0 en lo demás)
+	*eye(<>)
+	*Los argumentos funcionan igual que en la matriz de ceros, sólo que ahora 
+	la llena de UNOS.
+
+->Matriz Diagonal:
+	*diag([1 2 3 6 5 4]); %En donde la primera fila va a tener el 1, la segunda el 2,
+	y aspi sucesivamente. En total tendrá 6 filas. 
+
+->Acceso a la Matriz:
+	*Para acceder a la matriz se hace de la siguiente manera:
+	M(fila)(columna);
+	

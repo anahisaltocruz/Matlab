@@ -1,0 +1,25 @@
++++++Para eliminar una fila o columna de una matriz, lo podemos hacer de la 
+siguiente manera:
+	-Partimos de que tenemos la matriz A:
+	 10 20 30 40
+	 50 60 70 80
+	 50 10 30 80	y queremos borrar la última columna
+
+	-Lo hacemos de la siguiente forma:
+	A(:,4) = [ ];
+
+->Funciones Max y Min:
+	*Estas funciones, como su nombre lo dice ;-; nos da el valor máximo mínimo
+	Si le pasamos a max(10,-2), devolverá 10 
+
+	Peeero, si le pasamos como único paramétro una matriz, nos devolverá 
+	un vector con el valor máximo de cada columna de la matriz.
+
+	Si le pasamos como paramétro un vector, nos va a devolver el valor 
+	máximo del vector.
+
+	Si le pasamos como parámetros 2 VECTORES o 2 MATRICES, lo que nos va a 
+	devolver será otra matriz u otro vector pero con el valor máximo en cada casilla
+	Es decir que va a tomar valores de los dos elementos que se pasaron como 
+	paramétro. 
+	**NOTA: min funciona de la misma manera que max
