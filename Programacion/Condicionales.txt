@@ -1,0 +1,12 @@
+->Estructura del if
+	*Ejemplo:
+	if(a>b)
+		disp('Holi, dentro del if c:');
+	elseif(a<b)
+		disp('Holi, dentro del elseif c:');
+	else
+		disp('Holi, dentro del else c:');
+	end %Este end representa el termino del bloque if (el cual incluye a else)
+
+NOTAAAA: En matlab también existe la función <fprintf('')> y funciona muuuy similar
+	a la que usamos en lenguaje C

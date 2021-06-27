@@ -1,8 +1,10 @@
 ->Operadores lógicos
 	Los operadores lógicos funcionan de la misma manera que en los demás lenguajes
 	de programación, sólo cambia un poco la sintaxis.
-	& : and
-	| : or
+	& : and	Para matrices y vectores
+	| : or	Para matrices y vectores
+	&&: and	Para escalares
+	||: or	Para escalares
 	~=: diferente de 
 	==: igual que
 	~ : negación
