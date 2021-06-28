@@ -1,0 +1,27 @@
+->Estructura de for
+	*Ejemplo
+	for k = 5:10:105 %El primer número representa el inicio,
+		%Código   el segundo el paso, y el tercero el valor final
+		disp(k);  %Si se omite el segundo valor, el paso será de 1
+	end
+
+->Estructura del while
+	*Ejemplo
+	x = 1;
+	while(x < 10)
+		x = x + 1;
+		disp(x);
+	end;
+	
+->Estructura del switch
+	*Ejemplo
+	switch num
+		case 1
+			%Código
+		case 2
+			%Código
+		case 3
+			%Código
+		otherwise
+			%Código de la opc default
+	end %Fin del switch

@@ -1,0 +1,29 @@
+->Funciones en Matlab
+	**Para crear funciones en matlab, lo podemos hacer facilmente presionando
+	el botón de "New" y seleccionando el botón de "Function", lo que nos 
+	abrirá una plantilla de las funciones; ya sólo se tiene que llenar
+	según nuestra conveniencia.
+	
+	Estas funciones devuelven 1 o más valores.
+
+	NOTAA: El nombre del archivo de la función debe ser el mismo nombre 
+	que el de la función. Ej, si mi función se llama <sumita>, sumita será 
+	el nombre del archivo.
+
+	NOTAA 2: Las funciones se pueden usar desde otro script o desde la 
+	ventana de comandos.
+
+->Funciones anónimas
+	La estructura de estas funciones es la siguiente:
+	
+		Variable = @(parámetros) expresión %<Variable> rep el nombre de la función
+
+->Seccionar Scripts en Matlab
+	Para seccionar un script, basta con escribir: "%%" seguido de un espacio
+	(Después se puede agregar el títlo de la sección)
+	
+	La ventaja o ayuda de seccionar un script es porque podemos correr sólo la 
+	parte de código que necesitemos, lo cuál puede ser más rápido (nos evitamos
+	partes de código) y nuestra máquina no sufre tanto (D: al correr tanto código)
+
+ 
