@@ -52,14 +52,45 @@ hold on     %Las gráficas que se encuentren entre estos dos bloques (hold on y 
 hold off
 grid on
 title('Oscilaciones Amortiguadas');
-legend('Desplazamiento','Amplitud');
+%legend('Desplazamiento','Amplitud');
 %<legend(arg1,...,argN)> Nos sirve para describir qué representa cada
 %gráfica: Muestra un pequeño rectángulo en la grpafica en el que muestra 
 %de qué es cada gráfica y para diferenciar las gráficas, se ve un pequeño
 %segmento del tipo de linea de cada una de las gráficas
-%NOTA: Es importante seguir el orden 
+%NOTA: Es importante seguir el orden: El primero que se mostró con plot
+%debe corresponder al primer argumento de <legend> y así sucesivamente :)
+%NOTA 2: La ubicación por defecto es la esquina superior derecha
+legend('Desplazamiento','Amplitud','location','southwest');
+%Los dos parámetros extra de legend nos sirven para modifcar la ubicación
+%por defecto
 xlabel('t');
 ylabel('X,A');
+
+%% Ejemplo 4
+clc
+clear
+t = [0:pi/40:2*pi];
+plot(2*sin(t),cos(t));
+xlabel('2sen(t)');
+ylabel('cos(t)');
+grid on
+title('Gráfica 2sen(t) vs cos(t)');
+%Ejemplos de configuración de los ejes:
+axis equal      %Los ejes tendrán la misma escala 
+%axis square     %Redimensiona los ejes para que ambos 
+                %tengan la misma longitud (la escala 
+                %no es la misma)              
+%axis([-20,20,0,10]);   
+%axis([xInicio,xFinal,yInicio,yFinal]);
+    %Las siguientes dos líneas son equivalentes a la anterior
+%xlin([xInicio,xFinal]);
+%ylin([yInicio,yFinal]);
+
+text(1,0,'');
+%<text(...)> Nos sirve para escribir en algún punto específico de la
+%gráfica. El punto está definido por los primeros dos parámetros.
+%Nota: Se puede personalizar el texto que aparece, todos los detalles se
+%encuentran en la documentación de la función. 
 
 disp('Hola');
 
