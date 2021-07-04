@@ -24,9 +24,24 @@ grid on
 clc
 clear
 fplot(@(x) [sin(x), cos(x), tan(x)],[0, 6*pi]);
+%Dentro de los primeros corchetes se escriben todas las funciones que van a
+%aparecer dentro de la misma gráfica 
 xlabel('x');
 ylabel('f');
 legend('sen(x)','cos(x)','tan(x)');
 title('Seno, Coseno y Tangente');
 grid on
 
+%% Ejemplo 4
+% Gráfica de un cicloide
+clc
+clear
+r = 1;
+x = @(t) r*(t-sin(t));
+y = @(t) r*(cos(t)-1);
+fplot(x,y,[0,4*pi]);
+axis equal
+grid on
+xlabel('x');
+ylabel('y');
+title('Cicloide');
